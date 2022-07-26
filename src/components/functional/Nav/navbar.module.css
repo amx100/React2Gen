@@ -1,0 +1,10 @@
+.nbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  color: black;
+  
+}
+.block{
+    background-color: aqua;
+}
