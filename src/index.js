@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Ping from './components/class/Ping';
-import PingF from './components/functional/PingF'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Nav from "./components/functional/Nav/index,jsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./index.css";
+
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Ping />
-    <PingF/>
+    <Nav></Nav>
   </React.StrictMode>
 );
 
