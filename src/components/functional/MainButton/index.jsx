@@ -48,9 +48,12 @@ const MainButton = (props) => {
       case "xl":
         return style.sizeXL;
       default:
+        w;
         return style.normal;
     }
   };
+
+  <input type="checkbox" />;
 
   return (
     <button className={`${getColor()} ${getSize()} ${getRadius()}`}>
